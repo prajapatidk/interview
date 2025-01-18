@@ -1,0 +1,2 @@
+JavaScript Global Execution Context Explained!
+https://www.youtube.com/watch?v=gPKzwAORly8&t=186s

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // flat + map = flatMap()
+        const nums = [12, 34, 32, 4, 56, [1, 2, [12, 2, [19]]], 12, [123, 4, [23]]]
+        const result = nums.flatMap((item) => {
+            return item.length ? item.flat(Infinity).map(item => item * 2) : item * 2
+        })
+
+        console.log(result)
+
+    </script>
+</body>
+
+</html>

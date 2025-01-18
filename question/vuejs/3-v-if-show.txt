@@ -1,0 +1,6 @@
+What is the difference between v-if and v-show?
+
+v-if is use for conditionally renders an element based on the value of an expression.  When the condition is true, the element is added to the DOM. When the condition becomes false, the element is removed from the DOM entirely. Since the element is added/removed from the DOM, it involves more overhead (e.g., re-rendering and mounting/unmounting) compared to v-show. This can be more expensive if the condition changes frequently. Use v-if when the condition changes infrequently, or when the element is expensive to render and you don’t need it in the DOM unless necessary.
+
+
+v-show is use for conditionally shows or hides an element, but does not remove it from the DOM. When the condition is true, the element is displayed by setting its CSS display property to a valid value (like block or inline). When the condition is false, it sets the display property to none, which hides the element but keeps it in the DOM. v-show is faster when toggling the visibility of an element frequently because it doesn't involve DOM manipulations like v-if. It just toggles the display property. Use v-show when you need to toggle visibility frequently, and the element should always exist in the DOM.

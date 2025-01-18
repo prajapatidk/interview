@@ -1,0 +1,14 @@
+1. One-Way Data Binding
+In one-way data binding, the data flows in a single direction—from the application's data model (JavaScript objects) to the user interface (DOM). Any changes in the data model are reflected in the UI, but changes in the UI do not affect the data model.
+
+
+<img v-bind:src="imageUrl" alt="Example">
+
+
+**********************************************************
+
+2. Two-Way Data Binding
+In two-way data binding, the data flows both ways—between the data model and the UI. Changes in the data model are reflected in the UI, and changes in the UI (e.g., user input) are also propagated back to the data model.
+
+<input v-model="userName" placeholder="Enter your name">
+<p>Your name is: {{ userName }}</p>

@@ -1,0 +1,46 @@
+
+1) beforeCreate:
+Data: Not accessible.
+DOM: Not accessible.
+
+2) created:
+Data: Accessible (reactive data is set).
+DOM: Not accessible.
+
+3) beforeMount:
+Data: Accessible.
+DOM: Not yet mounted.
+
+4) mounted:
+Data: Accessible.
+DOM: Accessible (component is mounted).
+
+5) beforeUpdate:
+Data: Accessible (before reactivity causes DOM update).
+DOM: Accessible (before DOM re-renders).
+
+6) updated:
+Data: Accessible (after reactivity causes DOM update).
+DOM: Accessible (after DOM re-renders).
+
+7) beforeUnmount / beforeDestroy:
+Data: Accessible (before the component is destroyed).
+DOM: Accessible (still mounted).
+
+8) unmounted / destroyed:
+Data: Accessible (component is destroyed, but data is still in memory).
+DOM: Not accessible (DOM removed).
+
+**************************************************************************
+
+9) activated:
+Data: Accessible.
+DOM: Accessible (only for keep-alive components).
+
+10) deactivated:
+Data: Accessible.
+DOM: Not accessible (only for keep-alive components).
+
+11) errorCaptured:
+Data: Accessible.
+DOM: Accessible (error handling during component rendering).

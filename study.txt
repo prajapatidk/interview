@@ -1,0 +1,8 @@
+callback
+promise
+synchronous and asynchronous
+async await
+flat vs flatmap
+IIFE
+global execution Context - memory/code
+Temporal Dead Zone

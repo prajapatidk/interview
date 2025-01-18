@@ -1,0 +1,2 @@
+1) What is dom
+The HTML DOM (Document Object Model) is a programming interface for web documents. It represents the structure of a web page as a tree of nodes, where each node corresponds to an element, attribute, or piece of text in the HTML. It allows developers to interact with and manipulate the content, structure, and style of a webpage using JavaScript.

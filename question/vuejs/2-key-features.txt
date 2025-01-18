@@ -1,0 +1,9 @@
+What are the key features of Vue.js?
+
+1) Reactive data binding
+2) Component-based architecture
+3) Virtual DOM
+4) Directives (like v-if, v-for, v-bind)
+5) Event handling
+6) Two-way data binding with v-model
+7) Built-in transition support

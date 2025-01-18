@@ -1,0 +1,20 @@
+1) javascript spread operator vs rest operator
+2) What is window scope
+3) What is high order function
+4) Let, Const and var
+5) Datatype in js
+6) Stack and heap memory
+7) IIFE
+8) json parse vs json stringify
+9) call(), apply(), and bind()
+10) toString or valueOf
+11) js promises
+12) Polyfills
+13) Callback Hell
+14) What is api
+15) What is ajax
+16) js classes
+17) getter setter
+18) call Stack
+19) Virtual dom vs real dom vs shadow dom
+20) what is reconciliation

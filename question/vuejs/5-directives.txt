@@ -1,0 +1,3 @@
+What are Vue directives?
+
+Provide examples of commonly used directives like v-if, v-for, v-bind, and v-model.

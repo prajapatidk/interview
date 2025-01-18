@@ -1,0 +1,3 @@
+What is Vue.js and why would you choose it over other JavaScript frameworks?
+
+Vue.js is a progressive JavaScript framework for building user interfaces. It is often preferred because of its simplicity, flexibility, ease of integration, and its reactive data-binding system.

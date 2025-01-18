@@ -1,0 +1,5 @@
+How Data Binding Works Internally
+Vue.js achieves data binding through its reactivity system:
+
+Reactivity: Vue makes data objects reactive by converting their properties into getter and setter functions during initialization.
+When a property is accessed, the getter tracks dependencies, and when it is updated, the setter triggers DOM updates.
