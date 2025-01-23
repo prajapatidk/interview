@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+    <script>
+      const nums = [1, 5, 2, 3, 2, 5, 4, 6, 7, 8, 4, 3];
+
+      //   const convert = new Set(nums.sort());
+      //   console.log(Array.from(convert, (item) => item * 2));
+      //   document.getElementById("demo").textContent = Array.from(convert);
+
+      let uniqueValue = [];
+
+      //With for loop
+      //   for (let i = 0; i < nums.length; i++) {
+      //     let checkNum = uniqueValue.includes(nums[i]);
+      //     if (!checkNum) {
+      //       uniqueValue.push(nums[i]);
+      //     }
+      //   }
+      //   console.log(uniqueValue.sort());
+
+      //With for forEach loop
+      nums.forEach((item) => {
+        let checkNum = uniqueValue.includes(item);
+        if (!checkNum) {
+          uniqueValue.push(item);
+        }
+      });
+      console.log(uniqueValue.sort());
+    </script>
+  </body>
+</html>

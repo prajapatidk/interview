@@ -1,0 +1,16 @@
+What is the Vue instance?
+
+In Vue.js, a Vue instance is the core object that powers a Vue application. It is created by calling the Vue constructor and is responsible for connecting the View (HTML) with the Model (data). This instance allows you to define reactive data, methods, computed properties, lifecycle hooks, and event handling for a component or application.
+
+
+var app = new Vue({
+  el: '#app', // The DOM element to mount the Vue instance on
+  data: {
+    message: 'Hello Vue!'
+  },
+  methods: {
+    greet() {
+      alert(this.message);
+    }
+  }
+});

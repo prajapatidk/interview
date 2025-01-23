@@ -1,0 +1,8 @@
+In Vue.js, a mixin is a reusable piece of code that contains properties, methods, lifecycle hooks, and other options that can be shared across multiple Vue components. It allows you to encapsulate functionality and reuse it in multiple components without duplicating code.
+
+When you use a mixin in a component, all its properties and behavior are merged into the component's options.
+
+Why Use Mixins?
+To share common logic (e.g., utility methods, data, computed properties) between multiple components.
+To keep your code DRY (Don’t Repeat Yourself).
+To simplify complex components by breaking them into smaller, reusable pieces.

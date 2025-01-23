@@ -1,0 +1,75 @@
+How do you handle events in Vue.js?
+
+In Vue.js, events are handled using the v-on directive or its shorthand @. These tools allow you to listen for and respond to DOM events such as clicks, form submissions, input changes, and more.
+
+Full Syntax: v-on:eventName="method"
+Shorthand Syntax: @eventName="method"
+
+
+Mouse Events
+click - Fired when an element is clicked.
+dblclick - Fired when an element is double-clicked.
+mousedown - Fired when a mouse button is pressed down.
+mouseup - Fired when a mouse button is released.
+mouseenter - Fired when the mouse enters an element (does not bubble).
+mouseleave - Fired when the mouse leaves an element (does not bubble).
+mouseover - Fired when the mouse is moved over an element or its child.
+mouseout - Fired when the mouse is moved out of an element or its child.
+mousemove - Fired when the mouse is moved within an element.
+contextmenu - Fired when the right mouse button is clicked.
+
+
+Keyboard Events
+keydown - Fired when a key is pressed.
+keypress - (Deprecated) - Fired when a key is pressed (use keydown or keyup instead).
+keyup - Fired when a key is released.
+
+
+Form Events
+input - Fired when the value of an input element changes.
+change - Fired when an input element loses focus after its value is changed.
+focus - Fired when an element gains focus.
+blur - Fired when an element loses focus.
+submit - Fired when a form is submitted.
+reset - Fired when a form is reset.
+
+Clipboard Events
+copy - Fired when content is copied.
+cut - Fired when content is cut.
+paste - Fired when content is pasted.
+
+Drag & Drop Events
+drag - Fired when an element is being dragged.
+dragstart - Fired when dragging starts.
+dragend - Fired when dragging ends.
+dragenter - Fired when a dragged element enters a drop target.
+dragover - Fired when a dragged element is over a drop target.
+dragleave - Fired when a dragged element leaves a drop target.
+drop - Fired when a dragged element is dropped.
+
+Media Events
+play - Fired when playback starts.
+pause - Fired when playback is paused.
+ended - Fired when playback ends.
+volumechange - Fired when the volume is changed.
+timeupdate - Fired when the playback position changes.
+seeking - Fired when the user starts seeking.
+seeked - Fired when seeking is completed.
+loadedmetadata - Fired when metadata (e.g., duration) is loaded.
+
+Focus Events
+focusin - Fired when an element is focused (bubbles).
+focusout - Fired when an element loses focus (bubbles).
+
+Touch Events
+touchstart - Fired when a touch starts.
+touchmove - Fired when a touch is moved.
+touchend - Fired when a touch ends.
+touchcancel - Fired when a touch is interrupted.
+
+Window Events
+resize - Fired when the window is resized.
+scroll - Fired when the window or element is scrolled.
+load - Fired when the page has fully loaded.
+unload - (Deprecated) - Fired when the page is unloaded.
+beforeunload - Fired when the user is about to navigate away from the page

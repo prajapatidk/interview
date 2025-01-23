@@ -1,0 +1,3 @@
+What is the purpose of the data option in a Vue instance?
+
+In a Vue instance, the data option is a key part of Vue's reactivity system. Its primary purpose is to define the reactive properties that Vue tracks and binds to the DOM. These properties can be used in the template, computed properties, methods, and other parts of the Vue instance.
