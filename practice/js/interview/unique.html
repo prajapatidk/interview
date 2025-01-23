@@ -8,14 +8,13 @@
   <body>
     <div id="demo"></div>
     <script>
-      const nums = [1, 5, 2, 3, 2, 5, 4, 6, 7, 8, 4, 3];
+      const nums = ["Ram", "Shayam", "Ram", "Alok", "Ravi"];
 
       //   const convert = new Set(nums.sort());
       //   console.log(Array.from(convert, (item) => item * 2));
       //   document.getElementById("demo").textContent = Array.from(convert);
 
-      let uniqueValue = [];
-
+      // let uniqueValue = [];
       //With for loop
       //   for (let i = 0; i < nums.length; i++) {
       //     let checkNum = uniqueValue.includes(nums[i]);
@@ -26,13 +25,23 @@
       //   console.log(uniqueValue.sort());
 
       //With for forEach loop
-      nums.forEach((item) => {
-        let checkNum = uniqueValue.includes(item);
-        if (!checkNum) {
-          uniqueValue.push(item);
+      // let uniqueValue = [];
+      // nums.forEach((item) => {
+      //   let checkNum = uniqueValue.includes(item);
+      //   if (!checkNum) {
+      //     uniqueValue.push(item);
+      //   }
+      // });
+      // console.log(uniqueValue.sort());
+
+      //With for map method
+      let uniqueValue = [];
+      nums.map((item) => {
+        if (!uniqueValue.includes(item)) {
+          return uniqueValue.push(item);
         }
       });
-      console.log(uniqueValue.sort());
+      console.log(uniqueValue);
     </script>
   </body>
 </html>
