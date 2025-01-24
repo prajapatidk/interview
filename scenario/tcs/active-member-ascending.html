@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const users = [
+        { id: 1, name: "Jack", isActive: true, age: 10 },
+        { id: 2, name: "John", isActive: true, age: 6 },
+        { id: 3, name: "Mick", isActive: false, age: 14 },
+      ];
+
+      const activeUser = users
+        .filter((item) => item.isActive == true)
+        .sort((a, b) => a.age - b.age)
+        .map((item) => item.name);
+      console.log(activeUser);
+    </script>
+  </body>
+</html>

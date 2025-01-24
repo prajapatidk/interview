@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Return true / false base on duplicate
+      const numbers = [12, 2, 4, 5, 7, 8];
+
+      // First way
+      //   const hasDuplicate = numbers.length !== new Set(numbers).size;
+      //   console.log(hasDuplicate);
+
+      // Another way
+      const set = new Set();
+      let hasDuplicates = false;
+      for (num of numbers) {
+        if (set.has(num)) {
+          hasDuplicates = true;
+          break;
+        }
+        set.add(num);
+      }
+      console.log(hasDuplicates);
+    </script>
+  </body>
+</html>
