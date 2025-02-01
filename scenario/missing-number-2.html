@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Finding missing number in array
+      const numbers = [4, 7, 9, 10, 15];
+      const missingNumbers = [];
+
+      for (let i = Math.min(...numbers); i < Math.max(...numbers); i++) {
+        if (!numbers.includes(i)) {
+          missingNumbers.push(i);
+        }
+      }
+
+      console.log(missingNumbers);
+    </script>
+  </body>
+</html>

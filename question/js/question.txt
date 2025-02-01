@@ -18,3 +18,8 @@
 18) call Stack
 19) Virtual dom vs real dom vs shadow dom
 20) what is reconciliation
+21) what is clouser
+22) what is hoisting
+23) different between async/await and promiss
+24) What is event bubling
+25) what is currying
