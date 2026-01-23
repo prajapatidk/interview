@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const l1 = [2, 4, 3];
+      const l2 = [5, 6, 4];
+      let addTwoNumbers = function (l1, l2) {
+        const n1 = Number(l1.reverse().join(""));
+        const n2 = Number(l2.reverse().join(""));
+        return (n1 + n2).toString().split("").reverse().join("");
+      };
+
+      console.log(addTwoNumbers(l1, l2));
+    </script>
+  </body>
+</html>

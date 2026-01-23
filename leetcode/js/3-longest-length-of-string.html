@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Max lenght string
+      const rendom = "abcadabcb";
+
+      let lengthOfLongestSubstring = function (args) {
+        // debugger
+        let main = [];
+        for (let i = 0; i < args.length; i++) {
+          const subArgs = args.slice(i + 1);
+          let subMain = [];
+          subMain.push(args[i]);
+          for (let j = 0; j < subArgs.length; j++) {
+            if (subMain.includes(subArgs[j])) {
+              break;
+            }
+            subMain.push(subArgs[j]);
+          }
+          main.push(subMain);
+        }
+
+        const checkLen = [...main.map((item, i) => item.length)];
+
+        const result = [
+          ...main.filter((item, i) => item.length == Math.max(...checkLen)),
+        ];
+        return result.map((item, i) => item.join("")).join(",");
+      };
+
+      console.log(lengthOfLongestSubstring(rendom));
+    </script>
+  </body>
+</html>

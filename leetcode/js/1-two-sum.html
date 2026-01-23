@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const nums = [1, 7, 12, 8];
+
+      // First way
+      // const addTwo = (num, target) => {
+      //   let strModules = [];
+      //   let res = [];
+      //   num.map((item, i) => {
+      //     const remaining = target - item;
+      //     if (!strModules.includes(remaining)) {
+      //       strModules.push(item);
+      //     } else {
+      //       res.push(nums.indexOf(remaining), i);
+      //     }
+      //   });
+      //   return res;
+      // };
+
+      // Two way
+      const addTwo = (num, target) => {
+        let mp = new Map();
+        for (let i = 0; i < num.length; i++) {
+          let rem = target - num[i];
+          if (mp.has(rem)) {
+            return [mp.get(rem), i];
+          } else {
+            mp.set(num[i], i);
+          }
+        }
+      };
+      console.log(addTwo(nums, 20));
+    </script>
+  </body>
+</html>

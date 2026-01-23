@@ -1,25 +1,33 @@
-1) javascript spread operator vs rest operator
-2) What is window scope
-3) What is high order function
-4) Let, Const and var
-5) Datatype in js
-6) Stack and heap memory
-7) IIFE
-8) json parse vs json stringify
-9) call(), apply(), and bind()
-10) toString or valueOf
-11) js promises
-12) Polyfills
-13) Callback Hell
-14) What is api
-15) What is ajax
-16) js classes
-17) getter setter
-18) call Stack
-19) Virtual dom vs real dom vs shadow dom
-20) what is reconciliation
-21) what is clouser
-22) what is hoisting
-23) different between async/await and promiss
-24) What is event bubling
-25) what is currying
+What is scope
+Let, Const and var
+what is hoisting
+What is lexical scope - done
+what is clouser - done - https://www.youtube.com/watch?v=mwcdMA4FXN8
+what is currying
+javascript spread operator vs rest operator
+What is window scope
+What is high order function
+Datatype in js
+Stack and heap memory
+IIFE
+json parse vs json stringify
+call(), apply(), and bind()
+toString or valueOf
+js promises
+Polyfills
+Callback Hell
+What is api
+What is ajax
+js classes
+getter setter
+call Stack
+Virtual dom vs real dom vs shadow dom
+what is reconciliation
+different between async/await and promiss
+What is event bubling
+What is Recursion
+js primitive vs non primitive
+js mutable vs immutable
+js temporal dead zone
+js Variables and DataTypes in JS - https://www.youtube.com/watch?v=u3v2H5mwixY
+function currying - https://www.youtube.com/watch?v=yRivcr6gv-U , https://www.youtube.com/watch?v=k5TC9i5HonI
