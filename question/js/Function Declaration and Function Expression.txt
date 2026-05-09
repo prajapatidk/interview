@@ -1,0 +1,48 @@
+In JavaScript, the difference between Function Declaration and Function Expression mainly depends on how the function is defined and when it can be used.
+
+1. Function Declaration
+
+A function declaration defines a function with the function keyword and a name.
+
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(2, 3)); // 5
+
+Key Points
+✅ Hoisted – You can call the function before it is defined in the code.
+
+console.log(add(2,3)); // Works
+
+function add(a, b) {
+  return a + b;
+}
+
+✅ Must have a function name.
+✅ Declared as a separate statement.
+
+
+---------------
+
+2. Function Expression
+
+A function expression stores a function inside a variable.
+
+const add = function(a, b) {
+  return a + b;
+};
+
+console.log(add(2, 3)); // 5
+
+Key Points
+❌ Not hoisted like declarations – You cannot call it before definition.
+
+console.log(add(2,3)); // Error
+
+const add = function(a, b) {
+  return a + b;
+};
+
+✅ Can be anonymous (no function name).
+✅ Function is treated like a value.

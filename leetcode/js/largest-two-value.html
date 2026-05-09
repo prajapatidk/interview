@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Return larget last two value
+      const arr = [1, 12, 2, 3, 10, 4, 10, 5, 6, 6, 7];
+      const getLargestTwoValue = (val) => {
+        //First way
+
+        // const max = Math.max(...val);
+        // const secMax = Math.max(...arr.filter((item) => item !== max));
+        // return [max, secMax];
+
+        const sorted = [...new Set(arr.sort((a, b) => b - a))];
+        return [sorted[0], sorted[1]];
+      };
+
+      console.log(getLargestTwoValue(arr));
+    </script>
+  </body>
+</html>

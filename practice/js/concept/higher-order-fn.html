@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // A higher order function is a that type of function which take a funtion as argument or return a function as result, that call higher order function
+      // map() filter() reduce() forEach() sort()
+
+      // Creating custom higher order function
+
+      const data = [2, 4, 6, 8];
+
+      debugger;
+
+      const square = (i) => {
+        return i * 2;
+      };
+      const addOne = (i) => {
+        return i + 1;
+      };
+
+      // With normal function
+      const calculate = (arValue, fn) => {
+        const output = [];
+        for (i = 0; i < arValue.length; i++) {
+          output.push(fn(arValue[i]));
+        }
+        return output;
+      };
+
+      // With prototype
+      Array.prototype.autocalculate = (fn) => {
+        const output = [];
+        for (i = 0; i < this.length; i++) {
+          output.push(fn(this[i]));
+        }
+        return output;
+      };
+
+      console.log(calculate(data, addOne));
+      console.log(data.autocalculate(addOne));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+Immutable means the value cannot be changed after it is created.
+If you try to modify it, JavaScript creates a new value in memory instead of changing the original.
+
+Stack Memory Concept
+
+Primitive types are Immutable
+    string
+    number
+    boolean
+    null
+    undefined
+    symbol
+    bigint
+
+let a = "Hello";
+let b = a;
+
+b = "World";
+
+console.log(a); // Hello
+console.log(b); // World
+
+
+------------------------------------------
+
+
+Mutable means the value can be changed after creation without creating a new object.
+Non-Primitive types are Mutable
+    Object
+    Array
+    Function
+
+Heap Memory Concept    
+
+const obj = { name: "Deepak" };
+obj.name = "MrFullStack";
+console.log(obj.name); // MrFullStack    
+
+
+-------------------
+
+Best Interview Line
+Immutable values cannot be changed after creation, while mutable values can be modified directly in memory.

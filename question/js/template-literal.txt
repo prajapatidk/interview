@@ -1,0 +1,6 @@
+Template Literal in JavaScript is a way to create strings using backticks ( ) instead of single ' ' or double " " quotes. It allows variable interpolation, multi-line strings, and expressions inside strings.
+
+const name = "Deepak";
+
+const message = `Hello ${name}`;
+console.log(message);

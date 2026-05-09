@@ -1,0 +1,18 @@
+In JavaScript, there are 8 data types. They are divided into 2 categories.
+
+Primitive (7)
+Primitive values are copied by value. (Stack memory)
+
+let name = "Deepak";     // String
+let age = 25;            // Number
+let isAdmin = true;      // Boolean
+let x;                   // Undefined
+let y = null;            // Null
+let id = Symbol("id");   // Symbol
+let big = 123456789n;    // BigInt
+
+------------------
+
+Non-Primitive (1)
+Non-primitive values are copied by reference. (Heap memory)
+Object

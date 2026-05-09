@@ -1,0 +1,33 @@
+Primitive Data Types
+Primitive values store the actual value directly in memory (Stack).
+
+Mutable - No
+Types of Primitive
+    string
+    number
+    boolean
+    undefined
+    null
+    bigint
+    symbol
+
+When b = a, a copy of the value is created.
+So changing b does not affect a
+
+
+-----------------------------------------------------------
+
+
+Non-Primitive (Reference) Data Types
+Non-primitive values store the reference (address) in Stack and the actual value in Heap memory.
+
+Mutable - Yes
+Types
+    Object
+    Array
+    Function
+    Date
+    Map
+    Set
+
+Both variables point to the same memory reference, so changing one affects the other.    
