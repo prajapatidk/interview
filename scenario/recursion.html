@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const arrData = [1, 2, [3, 4]];
+
+      const flatterArrayRecusive = (arr) => {
+        let result = [];
+        for (const val of arr) {
+          if (Array.isArray(val)) {
+            result.push(...flatterArrayRecusive(val));
+          } else {
+            result.push(val);
+          }
+        }
+        return result;
+      };
+
+      console.log(flatterArrayRecusive(arrData));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+In javascript var, let and const are used to declare the variable, but they behave differently in term of scope and assignability
+
+Var is function-scoped, it can be redeclared and reassigned
+Let is block-scoped, it can not be redeclared in same scope, but reassigned is possible
+Const is block-scoped, it can not be redeclared and reassigned, must be initialized when declare

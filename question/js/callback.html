@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn">click</button>
+    <script>
+      // Definition
+      // In javascript, A callback function is a function passed as argument into another function and exucated when it needed
+
+      const btn = document.getElementById("btn");
+
+      // 1
+      //   btn.addEventListener("click", function () {
+      //     alert();
+      //   });
+
+      // 2
+      //   function invokeAlert() {
+      //     alert();
+      //   }
+      //   btn.addEventListener("click", invokeAlert);
+
+      // 3
+      function invokeAlertMsg(msg) {
+        alert(msg);
+      }
+
+      // Normal function
+      btn.addEventListener("click", function () {
+        invokeAlertMsg("hello");
+      });
+
+      // Arrow function
+      btn.addEventListener("click", () => invokeAlertMsg("hello"));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+In javascript, scope determines where a variable declared, visible and accessible within the code.
+
+in javascript there are 3 scope
+
+
+Globle scope - if Variables declared outside any function or block are globally accessible.
+
+let globalVar = "I'm global";
+
+function show() {
+  console.log(globalVar);
+}
+
+show(); // I'm global
+console.log(globalVar); // I'm global
+
+
+
+
+function scope - if Variables declared with var, let, or const inside a function are only accessible within that function.
+
+function greet() {
+  let message = "Hello";
+  console.log(message);
+}
+
+greet(); // Hello
+console.log(message); // ReferenceError
+
+
+
+
+block scope - if Variables declared with let and const are limited to the block ({}) where they are defined.
+
+if (true) {
+  let x = 10;
+  const y = 20;
+}
+
+console.log(x); // ReferenceError
+console.log(y); // ReferenceError

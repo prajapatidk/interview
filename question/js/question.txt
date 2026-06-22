@@ -1,12 +1,20 @@
-What is scope
-Let, Const and var
+What is javascript: Done 08th june
+What is scope: Done 10th june
+Let, Const and var : Done 10th june
+Callback function : Done 14th june - https://www.youtube.com/watch?v=jyfS7rMRmDk
+Higher order function:  Done - https://www.youtube.com/watch?v=BwyFLRVYbvU
+What is Recursion: Done - https://www.youtube.com/watch?v=oicojjHO7uM
+
+
+Function Declaration vs Function Expression
 what is hoisting
+what is temporal dead zone in javascript
 What is lexical scope
 what is clouser - https://www.youtube.com/watch?v=mwcdMA4FXN8
+Callback Hell : Done 14th june - https://www.youtube.com/watch?v=jyfS7rMRmDk
 what is currying
 javascript spread operator vs rest operator
 What is window scope
-What is high order function
 Datatype in js
 Stack and heap memory - https://www.youtube.com/watch?v=7gwc-1czolw
 IIFE
@@ -15,8 +23,6 @@ call(), apply(), and bind()
 toString or valueOf
 js promises
 Polyfills
-Higher order function - Done - https://www.youtube.com/watch?v=BwyFLRVYbvU
-Callback Hell - Done - https://www.youtube.com/watch?v=jyfS7rMRmDk
 What is api
 What is ajax
 js classes
@@ -27,7 +33,6 @@ what is reconciliation
 different between async/await and promiss
 difference between asynchronous and synchronous counter
 What is event bubling
-What is Recursion
 js primitive vs non primitive
 js mutable vs immutable
 js temporal dead zone
@@ -37,3 +42,6 @@ null vs Undefined
 Mutable vs Immutable Mutable - https://www.youtube.com/watch?v=EieiM_mtPGg&t
 what is desctructuring
 Debounce and throttle
+What is stack overflow: done - https://www.youtube.com/watch?v=eSi0CSGBJjA
+anonymous function in javascript
+what is pure function

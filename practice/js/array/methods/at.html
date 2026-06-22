@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // arr[index] is the traditional JavaScript syntax used to access an array element by its index position.
+
+      // arr.at(index) is a modern JavaScript method used to access an array element by index and also supports negative indexing.
+
+      // arr[index] does not support negative indexing.
+      // arr.at(index) supports negative indexing to access elements from the end of the array.
+      const fruits = ["apple", "banana", "mango", "orange"];
+
+      console.log(fruits[1]); // banana
+      console.log(fruits.at(1)); // banana
+
+      console.log(fruits.at(-1)); // orange
+      console.log(fruits.at(-2)); // mango
+    </script>
+  </body>
+</html>

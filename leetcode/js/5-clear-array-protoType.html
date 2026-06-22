@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Create a pollifills to clear the array
+
+      const arr = [1, 2, 3, 4, 5];
+
+      // First way
+      //   console.log(arr.splice(0, arr.length));
+
+      // Second way
+      if (!Array.prototype.toClearArray) {
+        Array.prototype.toClearArray = function () {
+          this.length = [];
+          return this;
+        };
+      }
+      console.log(arr.toClearArray());
+    </script>
+  </body>
+</html>

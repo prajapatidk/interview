@@ -1,0 +1,11 @@
+Stack Overflow occurs when a function keeps calling itself (directly or indirectly) too many times, causing the call stack memory to exceed its limit.
+
+
+function test(){
+    test()
+}
+
+test()
+
+
+https://www.youtube.com/watch?v=eSi0CSGBJjA

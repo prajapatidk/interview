@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      const arrData = [1, 2, [3, 4, [3, [56, 77, [8]]]]];
+
+      // 1st In build js way
+      // console.log(arrData.flat(Infinity));
+
+      // 2nd Custom way
+      // const result = arrData.toString();
+      // console.log(result.split(",").map((i) => Number(i)));
+
+      // 3rd with depth level
+      function flatterArray(arrayData, level = 1) {
+        const result = [];
+
+        for (arr of arrayData) {
+          if (Array.isArray(arr) && level > 0) {
+            result.push(...flatterArray(arr, level - 1));
+          } else {
+            result.push(arr);
+          }
+        }
+
+        return result;
+      }
+
+      console.log(flatterArray(arrData, 3));
+    </script>
+  </body>
+</html>

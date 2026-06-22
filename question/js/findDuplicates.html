@@ -10,7 +10,7 @@
     <script>
       const data = [1, 2, 3, 2, 5, 3, 67, 8];
 
-      const checkUnique = (items) => {
+      const checkDuplicates = (items) => {
         let obj = {};
         for (const item of items) {
           if (obj[item]) {
@@ -28,7 +28,7 @@
         return result.join(",");
       };
 
-      console.log(checkUnique(data));
+      console.log(checkDuplicates(data));
     </script>
   </body>
 </html>

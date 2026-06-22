@@ -1,1 +1,2 @@
 What is dom
+html difference between pseudo class and pseudo element

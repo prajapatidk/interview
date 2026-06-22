@@ -1,0 +1,2 @@
+What is javascript
+javascript is a high level interpreted programming language to create dynamic, interactive and functional web application and website

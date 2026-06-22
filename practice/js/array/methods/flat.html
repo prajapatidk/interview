@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // The flat() method in JavaScript is used to flatten nested arrays into a single array.
+      // Returns new array	✅ Yes
+      // Changes original array	❌ No
+      // Removes nesting	✅ Yes
+      
+      const arr = [1, [2, [3, 4, [3, 4, 5, 66, [34, 5]]]]];
+      const result1 = arr.flat(2); // Depth
+      const result2 = arr.flat(3); // Depth
+      const result3 = arr.flat(Infinity);
+      console.log(result3);
+    </script>
+  </body>
+</html>

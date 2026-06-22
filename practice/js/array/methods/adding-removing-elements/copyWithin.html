@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // The copyWithin() method is used to copy part of an array to another position in the same array.
+      const arr = [1, 2, 6, 7, 8, 9, 10, 44];
+      // const result1 = arr.copyWithin(2, 4);
+      // console.log(result1);
+      // [1, 2, 8, 9, 10, 44, 10, 44]
+
+      const result2 = arr.copyWithin(3, 4, 6);
+      console.log(result2); // [1, 2, 6, 8, 9, 9, 10, 44]
+    </script>
+  </body>
+</html>

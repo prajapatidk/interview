@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const nums = [2, 3, 7, 4, 8, 3, 1, 4, 5];
+      const findIndices = (data, tar) => {
+        let result = [];
+        for (let i = 0; i < data.length; i++) {
+          for (let j = i + 1; j < data.length; j++) {
+            const sum = data[i] + data[j];
+            if (sum == tar) {
+              result.push([data[i], data[j]]);
+            }
+          }
+        }
+        return result;
+      };
+
+      console.log(findIndices(nums, 9));
+    </script>
+  </body>
+</html>
