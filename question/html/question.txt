@@ -1,2 +1,147 @@
-What is dom
-html difference between pseudo class and pseudo element
+HTML Interview Questions
+Basic
+What is HTML?
+What is the difference between HTML and HTML5?
+What are semantic HTML tags?
+Why should we use semantic elements?
+What is the difference between <div> and <span>?
+What is the difference between block-level and inline elements?
+What are void (self-closing) elements?
+What is the purpose of the DOCTYPE declaration?
+What are HTML attributes?
+What is the difference between id and class?
+Forms
+What is the difference between GET and POST?
+What are different input types in HTML5?
+What is the difference between required, readonly, and disabled?
+What is the purpose of the placeholder attribute?
+How do you validate forms in HTML?
+What is the difference between <button> and <input type="submit">?
+Media
+How do you embed audio and video?
+What is the difference between SVG and Canvas?
+What is the picture element?
+What are responsive images?
+Storage
+What is Local Storage?
+What is Session Storage?
+Difference between Cookies, Local Storage, and Session Storage.
+SEO & Accessibility
+What are meta tags?
+Why is accessibility important?
+What is ARIA?
+What is the alt attribute?
+Why use semantic HTML for SEO?
+Advanced HTML
+What is the Shadow DOM?
+What are Web Components?
+What is lazy loading?
+Difference between async and defer.
+What is the preload attribute?
+Explain the Critical Rendering Path.
+CSS Interview Questions
+Basic
+What is CSS?
+Types of CSS.
+What is the CSS Box Model?
+Difference between Margin and Padding.
+What is box-sizing?
+Difference between display: none and visibility: hidden.
+Difference between Inline, Block, and Inline-block.
+Difference between Relative, Absolute, Fixed, and Sticky positioning.
+What is z-index?
+What is overflow?
+Selectors
+What are CSS selectors?
+Difference between class and ID selectors.
+Attribute selectors.
+Pseudo-classes.
+Pseudo-elements.
+Child vs Descendant selectors.
+Flexbox ⭐
+What is Flexbox?
+Explain justify-content.
+Explain align-items.
+Difference between align-items and align-content.
+What is flex-grow?
+What is flex-shrink?
+What is flex-basis?
+Difference between flex: 1 and flex-grow: 1.
+Grid ⭐
+What is CSS Grid?
+Difference between Grid and Flexbox.
+grid-template-columns
+grid-template-rows
+gap
+grid-area
+When should you use Grid instead of Flexbox?
+Responsive Design
+What is Responsive Design?
+What are Media Queries?
+Mobile-first vs Desktop-first.
+What are breakpoints?
+What are viewport units?
+Difference between em, rem, %, vw, and vh.
+Positioning
+Difference between Relative and Absolute.
+How does Absolute positioning work?
+What is Sticky positioning?
+How does Fixed positioning behave?
+Specificity
+What is CSS Specificity?
+How is specificity calculated?
+What is !important?
+Why should !important be avoided?
+Animation
+CSS Transitions.
+CSS Animations.
+Difference between Transition and Animation.
+Keyframes.
+Transform vs Translate.
+Performance
+How can you optimize CSS?
+What is Critical CSS?
+How do you reduce repaint and reflow?
+What causes layout shifts?
+Advanced CSS
+CSS Variables.
+calc()
+clamp()
+min()
+max()
+aspect-ratio
+object-fit
+backdrop-filter
+CSS Custom Properties.
+Scenario-Based Questions
+Center a <div> horizontally and vertically.
+Create a responsive navbar.
+Build a responsive card layout.
+Explain why z-index isn't working.
+Why isn't position: sticky working?
+Difference between 100vh and 100%.
+Why isn't margin: auto centering an element?
+How do you create equal-height cards?
+How do you make images responsive?
+How would you create a sticky footer?
+Frequently Asked HTML + CSS Interview Questions
+What is the Box Model?
+Explain Flexbox.
+Explain CSS Grid.
+Difference between Flexbox and Grid.
+Difference between display: none and visibility: hidden.
+Difference between position: absolute and relative.
+What is CSS Specificity?
+Difference between id and class.
+Difference between block and inline elements.
+Difference between em and rem.
+Difference between vh, vw, %, and px.
+What are semantic HTML elements?
+Difference between GET and POST.
+Difference between Local Storage and Session Storage.
+Difference between async and defer.
+What is Responsive Design?
+What are Media Queries?
+Explain z-index.
+Explain box-sizing: border-box.
+How do you optimize CSS performance?

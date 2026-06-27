@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="demo">Hello Deepak</h1>
+    <script>
+      // Curring is a function programming technique where a function take multiple arguments is transformed into a sequence of functions, each taking one argument
+
+      function updateName(a) {
+        return function (b) {
+          return (document.querySelector(`#${a}`).innerHTML = b);
+        };
+      }
+
+      const updateTitle = updateName("demo");
+      console.log(updateTitle("Hello Curring"));
+    </script>
+  </body>
+</html>

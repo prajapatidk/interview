@@ -8,27 +8,16 @@
 
   <body>
     <script>
-      const data = [1, 2, 3, 2, 5, 3, 67, 8];
-
-      const checkUnique = (items) => {
-        let obj = {};
-        for (const item of items) {
-          if (obj[item]) {
-            obj[item] += 1;
-          } else {
-            obj[item] = 1;
-          }
-        }
-        let result = [];
-        for (const [key, value] of Object.entries(obj)) {
-          if (value > 1) {
-            result.push(key);
-          }
-        }
-        return result.join(",");
-      };
-
-      console.log(checkUnique(data));
+      function counter() {
+        let count = 0;
+        return () => (count += 1);
+      }
+      const result = counter();
+      console.log(result());
+      console.log(result());
+      console.log(result());
+      console.log(result());
+      console.log(result());
     </script>
   </body>
 </html>

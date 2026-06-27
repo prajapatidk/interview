@@ -1,8 +1,0 @@
-Lexical Scope means that a function can access variables defined in its own scope, and in the scopes of its parent functions, based on where it is written in the code.
-
-In short:
-
-"Child functions have access to variables defined in their parent scope."
-
-
-https://www.youtube.com/watch?v=mwcdMA4FXN8

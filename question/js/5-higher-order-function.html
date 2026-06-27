@@ -8,9 +8,35 @@
   <body>
     <script>
       // A higher order function is a that type of function which take a funtion as argument or return a function as result, that call higher order function
-      // map() filter() reduce() forEach() sort()
+      arr.map(callback);
+      arr.filter(callback);
+      arr.reduce(callback);
+      arr.forEach(callback);
+      arr.find(callback);
+      arr.some(callback);
+      arr.every(callback);
 
       // Creating custom higher order function
+
+      // Returns a function
+      const hello = (a, b) => {
+        return function () {
+          return a + b;
+        };
+      };
+
+      const sum = hello(10, 20);
+
+      console.log(sum()); // 30
+
+      // function as an argument
+      const add = (x, y) => {
+        console.log(x + y);
+      };
+
+      hello2(10, 20, add); // 30
+
+      ///////////////////////////////
 
       const data = [2, 4, 6, 8];
 

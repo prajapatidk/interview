@@ -1,0 +1,221 @@
+1. React Basics
+   What is React?
+   Why is React called a library and not a framework?
+   Features of React
+   What is Virtual DOM?
+   How does React update the DOM?
+   What is JSX?
+   Why do we use JSX?
+   Can React work without JSX?
+   Difference between React Element and Component
+
+2. Components
+   What are Functional Components?
+   What are Class Components?
+   Difference between Functional and Class Components
+   What are Pure Components?
+   What is Higher Order Component (HOC)?
+   What is Render Props?
+   What are Controlled and Uncontrolled Components?
+
+3. Props & State
+   What are props?
+   What is state?
+   Difference between props and state
+   Can props be modified?
+   Why is state immutable?
+   How do you update state correctly?
+
+4. Hooks ⭐ (Very Important)
+   useState
+   What is useState?
+   Why is state update asynchronous?
+   Functional updates
+   useEffect
+   What is useEffect?
+   Dependency array
+   Empty dependency array
+   Cleanup function
+   Common mistakes with useEffect
+   Other Hooks
+   useContext
+   useRef
+   useMemo
+   useCallback
+   useReducer
+   Custom Hooks
+
+5. Lifecycle
+   React component lifecycle
+   Mounting
+   Updating
+   Unmounting
+   How lifecycle methods map to hooks
+
+6. Rendering
+   What is Re-rendering?
+   Why does React re-render?
+   Prevent unnecessary renders
+   Conditional rendering
+   List rendering
+   Keys in React
+   Why should keys be unique?
+
+7. Events
+   Event handling
+   Synthetic Events
+   Passing parameters
+   Event bubbling
+   Prevent default
+
+8. Forms
+   Controlled Components
+   Uncontrolled Components
+   Form validation
+   Handling multiple inputs
+
+9. React Router
+   What is React Router?
+   BrowserRouter
+   Routes
+   Route
+   Link vs NavLink
+   useNavigate
+   useParams
+   Nested Routes
+   Lazy Loading Routes
+
+10. State Management
+    Context API
+    Redux basics
+    Redux Toolkit
+    Zustand
+    MobX (less common)
+
+Interview questions:
+   Why Redux?
+   Redux Flow
+   Redux Toolkit advantages
+   Context API vs Redux 11. Performance Optimization ⭐
+   React.memo
+   useMemo
+   useCallback
+   Lazy Loading
+   Code Splitting
+   Suspense
+   Memoization
+   Debouncing
+   Throttling
+   Virtualization 12. API Calls
+   Fetch API
+   Axios
+   Loading states
+   Error handling
+   Promise.all()
+   AbortController
+   Async/Await 13. React Internals
+   Virtual DOM
+   Diffing Algorithm
+   Reconciliation
+   Fiber Architecture
+   Batching
+   Hydration 14. React 18
+   Concurrent Rendering
+   Automatic Batching
+   Suspense improvements
+   Strict Mode changes
+   createRoot() 15. React Patterns
+   Compound Components
+   HOC
+   Render Props
+   Custom Hooks
+   Provider Pattern 16. Error Handling
+   Error Boundaries
+   try/catch
+   Fallback UI 17. Folder Structure
+   Best folder structure
+   Feature-based architecture
+   Separation of concerns 18. Testing
+   Jest
+   React Testing Library
+   Unit Testing
+   Mocking APIs 19. React + JavaScript Questions
+
+These are frequently mixed into React interviews:
+   Closures
+   Hoisting
+   Event Loop
+   Promise
+   Async/Await
+   Callbacks
+   Currying
+   IIFE
+   Prototype
+   this keyword
+   Arrow Functions
+   ES6 features
+   Destructuring
+   Spread vs Rest
+   Modules
+   Map vs Filter vs Reduce 20. Coding Questions
+   Todo App
+   Counter
+   Stopwatch
+   Search Filter
+   Pagination
+   Infinite Scroll
+   Accordion
+   Modal
+   Tabs
+   Dark Mode
+   Shopping Cart
+   Form Validation
+   Debounce Search
+   Image Carousel 21. Scenario-Based Questions ⭐
+   Why is my component rendering multiple times?
+   How do you optimize a slow React app?
+   How do you share state between sibling components?
+   When would you use Context instead of Redux?
+   Why should you avoid index as a key?
+   How do you cancel API requests?
+   How do you prevent unnecessary API calls?
+   How do you handle large lists?
+   How do you optimize expensive calculations?
+   What happens when state changes?
+   Explain React's rendering process. 22. Advanced Questions (3+ Years)
+   Server Components
+   Suspense for Data Fetching
+   Hydration
+   SSR vs CSR
+   Next.js basics
+   React Fiber
+   React Scheduler
+   Portals
+   Refs
+   ForwardRef
+   useImperativeHandle
+   Most Important Topics (Asked in Almost Every Interview)
+   React Basics
+   JSX
+   Components
+   Props vs State
+   useState
+   useEffect
+   Component Lifecycle
+   Virtual DOM
+   Reconciliation
+   Keys
+   Controlled vs Uncontrolled Components
+   Context API
+   Redux Toolkit
+   React Router
+   React.memo
+   useMemo
+   useCallback
+   Custom Hooks
+   API Calls
+   Performance Optimization
+   Error Boundaries
+   React 18 Features
+   Debouncing & Throttling
+   JavaScript Fundamentals (Closures, Promises, Event Loop, Currying, IIFE, this)

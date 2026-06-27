@@ -1,0 +1,4 @@
+Lexical scope describes how a child function has access to the variables defined in its parent scope. First, it checks its own scope. If it finds the value, that's fine. If it doesn't find it, then it goes to the parent scope.
+
+
+https://www.youtube.com/watch?v=mwcdMA4FXN8
